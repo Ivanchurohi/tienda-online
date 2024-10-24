@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaiming-Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    body {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 20px;
+        background-color: rgb(215, 227, 255);
+    }
+    .producto {
+        display:flex;
+        justify-content: space-between ;
+    }
+    .producto {
+        border: 1px solid black;
+        padding: 10px;
+        width: 50%;
+        text-align: center; 
+    }
+    .producto h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .producto p {
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1, h2{
+        color: rgb(77, 77, 255)
+    }
+    .producto, .cart {
+        margin-bottom: 20px;
+    }
+    .producto {
+        background-color: rgb(242, 242, 242);
+        padding: 10px;
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        border-radius: 7px;
+    }
+    button {
+        background-color: rgb(180, 180, 255);
+        border-radius: 7px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: rgb(58, 99, 245);
+    }
+    .cart {
+        background-color: ;
+        padding: 20px;
+        border: 1px solid black;
+        width: 50%;
+        border-radius: 7px;
+    }
+   
+</style>
+
+<body>
+    <h1>Gaiming-Store</h1>
+    
+</body>
+<div class="producto" data-id="1" date-name="Producto 1" data-price="49.99">
+    <h3>Nintendo</h3>
+    <p>Precio: 49.99$</p>
+    <button class="add-to-cart-btn">Añadir al carrito</button>
+</div>
+
+<div class="producto" data-id="2" data-name="Producto 2" data-price="19.99">
+    <h3>Juego</h3>
+    <p>Precio: 19.99$</p>
+    <button class="add-to-cart-btn">Añadir al carrito</button>
+</div>
+
+<div class="cart">
+    <h2>Carrito</h2>
+    <ul id="objetos-carrito"></ul>
+    <p>Total: $<span id="total-carrito">0.00</span></p>
+</div>
+
+<script src="script.js"></script>
+</html>
