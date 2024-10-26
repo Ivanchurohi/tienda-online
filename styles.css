@@ -1,0 +1,53 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(215, 227, 255);
+}
+.producto{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+} 
+.producto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.producto p {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1, h2{
+    color: rgb(98, 77, 255)
+}
+.producto, #carrito {
+    margin-bottom: 30px;
+}
+.producto {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+button {
+    background-color: rgb(180, 180, 255);
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(58, 99, 245);
+}
+#carrito {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    border: 1px solid rgb(238, 238, 238);
+    width: 50%;
+    border-radius: 7px;
+}
+#lista-carrito li {
+    list-style: none;
+    margin: 5px 0;
+}
